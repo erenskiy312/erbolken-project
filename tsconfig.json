@@ -10,7 +10,7 @@
       "target": "es2020",
       "jsx": "react",
       // для абсолютного импорта
-      "baseUrl": ".",
+      // "baseUrl": ".",
       "allowJs": true,
       "moduleResolution": "node",
       // Компилятор будет обрабатывать не только TS файлы, но и JS файлы | allowJS, moduleResolution, 
