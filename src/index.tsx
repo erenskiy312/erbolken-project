@@ -1,8 +1,9 @@
 import { render } from "react-dom";
-import './index.scss'
+import App from "./App";
+
 render(
     <div>
-        <button>hello</button>
+        <App/>
     </div>,
     document.getElementById('root')
 )
