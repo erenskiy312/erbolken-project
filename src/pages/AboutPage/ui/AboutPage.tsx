@@ -6,7 +6,6 @@ const AboutPage = () => {
   return (
     <div>
       {t('О сайте')}
-      {t('О сайте 12345')}
     </div>
   )
 }
