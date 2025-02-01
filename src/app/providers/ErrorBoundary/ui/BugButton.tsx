@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 // Компонент для тестирования Error Boundary
 export const BugButton = () => {
     const [error, setError] = useState(false)
-    const { t } = useTranslation()
+    const { t } = useTranslation('main')
 
     const onThrow = () => setError(true)
 
