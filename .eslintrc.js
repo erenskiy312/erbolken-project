@@ -35,7 +35,7 @@ module.exports = {
     'no-shadow': 'off',
     'import/no-extraneous-dependencies': 'warn',
     'no-underscore-dangle': 'off',
-    'i18next/no-literal-string': ['error', { markupOnly: true }],
+    'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
     'max-len': ['error', { ignoreComments: true, code: 100 }],
     '@typescript-eslint/naming-convention': [
       'error',
@@ -47,4 +47,13 @@ module.exports = {
   globals: {
     __IS_DEV__: true,
   },
+
+  overrides: [
+    {
+      files: ['**/src/**/*.test.{ts,tsx}'],
+      riles: {
+        'i18next/no-literal-string': off,
+      }
+    }
+  ]
 };
