@@ -39,10 +39,6 @@ module.exports = {
     'max-len': ['error', { ignoreComments: true, code: 100 }],
     '@typescript-eslint/naming-convention': [
       'warning',
-      {
-        selector: 'variable',
-        format: ['camelCase'],
-      },
     ],
   },
   globals: {
