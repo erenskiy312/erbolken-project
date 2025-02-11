@@ -1,5 +1,5 @@
-import PageNotFound from "./ui/PageNotFound";
+import PageNotFound from './ui/PageNotFound';
 
 export {
-    PageNotFound
-}
+  PageNotFound,
+};
