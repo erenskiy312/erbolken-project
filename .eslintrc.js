@@ -40,7 +40,7 @@ module.exports = {
     '@typescript-eslint/naming-convention': [
       'error',
       {
-        selector: "variable",
+        selector: 'variable',
         format: ['camelCase'],
       },
     ],
@@ -54,7 +54,7 @@ module.exports = {
       files: ['**/src/**/*.test.{ts,tsx}'],
       rules: {
         'i18next/no-literal-string': 'off',
-      }
-    }
-  ]
+      },
+    },
+  ],
 };
