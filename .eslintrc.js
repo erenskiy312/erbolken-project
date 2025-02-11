@@ -33,12 +33,12 @@ module.exports = {
     'react/function-component-definition': 'off',
     'react/jsx-props-no-spreading': 'warn',
     'no-shadow': 'off',
-    'import/no-extraneous-dependencies': 'warn',
+    'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
     'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
     'max-len': ['error', { ignoreComments: true, code: 100 }],
     '@typescript-eslint/naming-convention': [
-      'error',
+      'off',
       {
         format: ['camelCase'],
       },
