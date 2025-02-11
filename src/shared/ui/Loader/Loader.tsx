@@ -5,12 +5,10 @@ interface LoaderProps {
     className?: string;
 }
 
-export const Loader = ({ className }: LoaderProps) => {
-    return (
-        <div className={classNames('loader', {}, [className])}>
-            <span></span>
-        </div>
-    );
-};
+export const Loader = ({ className }: LoaderProps) => (
+  <div className={classNames('loader', {}, [className])}>
+    <span />
+  </div>
+);
 
 export default Loader;

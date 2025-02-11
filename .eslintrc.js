@@ -31,12 +31,12 @@ module.exports = {
     'no-unused-vars': 'warn',
     'react/require-default-props': 'off',
     'react/function-component-definition': 'off',
-    'react/jsx-props-no-spreading': 'warn',
+    'react/jsx-props-no-spreading': 'off',
     'no-shadow': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
-    'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
-    'max-len': ['error', { ignoreComments: true, code: 100 }],
+    'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid', 'to'] }],
+    'max-len': ['error', { ignoreComments: true, code: 120 }],
     '@typescript-eslint/naming-convention': [
       'off',
       {
