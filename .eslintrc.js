@@ -40,6 +40,7 @@ module.exports = {
     '@typescript-eslint/naming-convention': [
       'error',
       {
+        selector: "variable",
         format: ['camelCase'],
       },
     ],
