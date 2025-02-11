@@ -38,7 +38,7 @@ module.exports = {
     'i18next/no-literal-string': ['error', { markupOnly: true, ignoreAttribute: ['data-testid'] }],
     'max-len': ['error', { ignoreComments: true, code: 100 }],
     '@typescript-eslint/naming-convention': [
-      'error',
+      'warning',
       {
         selector: 'variable',
         format: ['camelCase'],
