@@ -29,7 +29,7 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
     use: ['@svgr/webpack'],
   };
 
-  const cssLoader = buildCssLoader(isDev)
+  const cssLoader = buildCssLoader(isDev);
 
   // Если в проекте мы не используем тайпскрипт, устанавлииваем babel-loader
   const typescriptLoader = {
