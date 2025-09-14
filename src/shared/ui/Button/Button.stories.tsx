@@ -29,7 +29,7 @@ Outline.args = {
   children: 'Text',
   theme: ButtonTheme.OUTLINE,
 };
-
+// ! Все что здесь закоммичено, не работают размеры и формы, и создает проблему при запуске CI pipeline, скоро будет проведена работа над этим
 // export const OutlineSizeL = Template.bind({});
 // OutlineSizeL.args = {
 //   children: 'Text',
