@@ -7,7 +7,7 @@ const MainPage: React.FC = () => {
 
   return (
     <div>
-      <BugButton />
+      {/* <BugButton /> */}
       {t('Главная страница')}
     </div>
   );
