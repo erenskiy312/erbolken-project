@@ -37,12 +37,13 @@
     pointer-events: auto;
     opacity: 1;
     z-index: var(--modal-z-index);
+
     .content {
         transform: scale(1);
     }
 }
 
-.isClosing {   
+.isClosing {
     .content {
         transform: scale(0.2);
         font-size: 500px;
