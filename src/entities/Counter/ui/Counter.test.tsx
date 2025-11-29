@@ -17,7 +17,7 @@ describe('Counter', () => {
     userEvent.click(screen.getByTestId('increment-btn'));
     expect(screen.getByTestId('value-title')).toHaveTextContent('11');
   });
-  test('decrement', () => {
+  test('decrementt', () => {
     componentRender(<Counter />, {
       initialState: { counter: { value: 10 } },
     });
